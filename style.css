@@ -1,4 +1,10 @@
 /* General reset */
+html, body {
+  width: 100vw;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -43,7 +49,7 @@ section:nth-of-type(4) {
 
 
 /* Background Video Styling for Both */
-#bg-video-landscape,
+/* #bg-video-landscape,
 #bg-video-portrait {
   position: fixed;
   top: 0;
@@ -52,9 +58,23 @@ section:nth-of-type(4) {
   height: 100%;
   object-fit: cover;
   z-index: -1;
+  
+  pointer-events: none;
+} */
+
+#bg-video-landscape,
+#bg-video-portrait {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1;
   transition: opacity 0.3s ease;
   pointer-events: none;
 }
+
 
 
 /* By default, show landscape video and hide portrait */
