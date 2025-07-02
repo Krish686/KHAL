@@ -337,6 +337,12 @@ section:nth-of-type(4) { animation-delay: 0.8s; }
 .contact-info ul li {
   margin-bottom: 12px;
 }
+
+.contact-form input[type="date"] {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #111;
+}
+
 .map-container {
   margin-top: 20px;
   border-radius: 10px;
