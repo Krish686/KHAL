@@ -22,7 +22,6 @@ This site showcases my projects, skills, and contact information in a clean, res
 
 - *HTML5* – Semantic structure  
 - *CSS3* – Styling and responsiveness  
-- *JavaScript* – Interactivity  
 - *GitHub Pages* – Hosting  
 
 ---
